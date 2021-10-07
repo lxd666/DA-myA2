@@ -1,16 +1,16 @@
 clear;clc;
 % arrange data
-cd('./data/')
-load('Data_AAL116_1_3sites.mat')
-data1 = Data;
-load('Data_AAL116_4_6sites.mat')
-data2 = Data;
-load('Data_AAL116_7_17sites.mat')
+cd('./data/'); 
+load('Data_AAL116_1_3sites.mat'); 
+data1 = Data; 
+load('Data_AAL116_4_6sites.mat'); 
+data2 = Data; 
+load('Data_AAL116_7_17sites.mat'); 
 data3 = Data;
-Data = [data1;data2;data3];
-save('Data_17sites_AAL116.mat','Data')
+Data = [data1;data2;data3]; save('Data_17sites_AAL116.mat','Data')
 
 
+cd('../LRCDR/')
 addpath('./functions/')
 addpath('../data/tools/')
 addpath('../data/tools/liblinear-2.43/windows/')
