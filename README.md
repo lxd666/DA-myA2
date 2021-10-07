@@ -1,7 +1,7 @@
 # Domain-Adaptation-LRCDR
 
 
-Due to the large amount of data, we had to upload the data separately. Please run the following program before running any program to organize the data into the required format.
+Due to the large amount of data, we had to upload the data separately.  we recommend that you run './LRCDR/demo_LRCDR_AAL116.m' first, which will organize and save the data first to facilitate you to run other programs. Or when running the program for the first time, please run the following program first to organize the data into the required format.
 
 cd('./data/');
 load('Data_AAL116_1_3sites.mat');
