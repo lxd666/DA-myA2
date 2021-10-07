@@ -1,6 +1,6 @@
 clear;clc;
 % arrange data
-cd('./data/'); 
+cd('../data/'); 
 load('Data_AAL116_1_3sites.mat'); 
 data1 = Data; 
 load('Data_AAL116_4_6sites.mat'); 
